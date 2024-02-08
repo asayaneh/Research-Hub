@@ -1,0 +1,19 @@
+@font-face{
+    font-family: Archivo-Black;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 100px;
+}
+
+nav{
+    height: 13%;
+    background-color: white;
+}
+
+h5{
+    font-family: 'Archivo-Black';
+}

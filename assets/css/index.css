@@ -1,0 +1,42 @@
+@font-face{
+    font-family: Archivo-Black;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.form-container{
+    width: 25%;
+
+}
+
+h1{
+    font-family: 'Archivo-Black';
+}
+
+p, input{
+    font-style: italic;
+}
+
+label{
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.input{
+    border: none;
+    background-color: #C0C0C0  ;
+}
+
+

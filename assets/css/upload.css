@@ -1,0 +1,41 @@
+@font-face{
+    font-family: Archivo-Black;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
+body{
+    margin-top: 100px;
+}
+
+nav{
+    height: 13%;
+    background-color: white;
+}
+
+h5{
+    font-family: 'Archivo-Black';
+}
+
+h3{
+    text-decoration: underline blue 3px;
+    text-underline-offset: 6px;
+    font-weight: bold;
+}
+
+.input{
+    background-color: #C0C0C0  ;
+}
+
+select{
+    background-color: #C0C0C0  ;
+}
+
+#date{
+    width: 40%;  
+    border: none;
+}
+
+#submitButton{
+    font-weight: bold;
+}
+

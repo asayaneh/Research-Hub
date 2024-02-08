@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Archivo-Black;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
+body {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+nav {
+    height: 13%;
+    background-color: white;
+}
+
+h5 {
+    font-family: "Archivo-Black";
+}
+
+h3{
+    text-decoration: underline blue 3px;
+    text-underline-offset: 7px;
+    font-weight: bold;
+}
+
+.comments-container {
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #ddd; /* Optional: add a border on the right for separation */
+  }
+
+  /* Adjust styles as needed */
+  .comment {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+
+
+.comment-container {
+    height: 80vh; /* Adjust the height of the comments container */
+    overflow-y: auto;
+    border: 1px solid #ddd; /* Add a border for styling */
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scrollable-comments {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .add-comment {
+    width: 100%;
+    background-color: #f8f9fa; /* Optional: Set background color for better visibility */
+    padding: 10px;
+  }
+
